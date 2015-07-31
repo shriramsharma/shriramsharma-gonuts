@@ -7,12 +7,12 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'fatih/vim-go'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'Raimondi/delimitMate'
 Plugin 'majutsushi/tagbar'
 Plugin 'fatih/molokai'
 Plugin 'kien/ctrlp.vim'
+Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -48,7 +48,7 @@ set ttimeoutlen=10
 set complete=.,w,b,u,t
 set completeopt=longest,menuone
 
-colorscheme molokai
+#colorscheme molokai
 
 "Go settings
 au BufNewFile,BufRead *.go setlocal noet ts=4 sw=4 sts=4
