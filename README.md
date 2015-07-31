@@ -6,5 +6,5 @@ Sets you up with a GO development env with some useful VIM GO plugins inside of 
 ####Mac users:
 * Install [boot2Docker](https://github.com/boot2docker/osx-installer/releases)
 * Once installed, launch boot2Docker.
-  (/img/boot2Docker.png)
+  ![boot2Docker screen](img/boot2Docker.png)
 * git clone https://github.com/shriramsharma/shriramsharma-gonuts.git
